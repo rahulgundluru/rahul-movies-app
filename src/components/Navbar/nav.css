@@ -1,0 +1,30 @@
+
+.heading-div-cont  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding: 30px;
+}
+
+.heading {
+    font-family: 'verdana';
+    box-shadow: 2px 2px 2px 2px rgb(250, 238, 3);                                
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    border: 0px solid;
+    text-decoration: none;
+    /* color: rgb(226, 45, 9); */
+    background: #00FF00;
+background: linear-gradient(to left, #00FF00 0%, #FF0000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+
+}
+
+

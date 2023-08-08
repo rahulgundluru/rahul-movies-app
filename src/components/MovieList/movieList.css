@@ -1,0 +1,106 @@
+
+  
+  
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%
+  }
+  
+  
+
+  .pagination {
+    margin-top: 20px;
+    
+  }
+  
+  .pagination button {
+    padding: 6px 10px;
+    margin: 0 4px;
+    background-color: #844545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .pagination button:hover {
+    background-color: #ccc;
+  }
+  
+  /* ... (existing styles) */
+  
+  .search-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .input-change {
+    padding-left: 20px;
+    width: 70%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+
+  .main-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .para-input{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 0%, #FF7C00 0%, #FF7F04 0%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 0%, #FF7C00 0%, #FF7F04 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+
+    font-weight: bold;
+  }
+
+  .sort-container {
+    align-self: flex-start;
+    padding-left: 90px;
+    margin-bottom: 20px;
+  }
+
+  .label-sort {
+    font-size: 15px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    padding-right: 10px;
+  }
+
+  .select-input {
+    width: 110px;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
